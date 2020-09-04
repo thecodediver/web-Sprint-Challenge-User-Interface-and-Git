@@ -242,3 +242,67 @@ footer nav a:hover {
     font-weight: bolder;
     text-shadow: 1px 1px 1px white;
 }
+
+/* ================
+ABOUT PAGE SPECIFIC STYLING STARTS HERE
+================= */
+
+/* About Section Stlying */
+.about-section {
+    padding: .5% 2% 2.5% 2%;
+    border-bottom: 2px dotted black;
+}
+
+.about-section h1 {
+    font-weight: bolder;
+}
+
+/* Info Section Styling */
+.info-section {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-section .info-content {
+    width: 48.5%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.info-section .info-content img, .info-section .info-content p {
+    margin-bottom: 5%;
+}
+
+.info-section .info-content h2 {
+    font-weight: bolder;
+}
+
+.info-section .info-content .info-button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.5% 4.5%;
+    margin-bottom: 2%;
+    transition: all .3s;
+}
+
+.info-section .info-content .info-button:hover {
+    color: white;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid white;
+}
+
+/* Career Section Styling */
+.careers-section {
+    padding: 2%;
+    margin-bottom: 2.5%;
+}
+
+.careers-section h2 {
+    font-weight: bolder;
+}
