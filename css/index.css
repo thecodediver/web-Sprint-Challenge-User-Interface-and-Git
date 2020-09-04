@@ -74,7 +74,40 @@ p {
 }
 
 /* Header Content Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3%;
+    align-items: baseline;
+}
 
+nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+nav .nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+nav .nav-links a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero {
+    height: 30vh;
+    background-image: url('../img/jumbo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: .5%;
+    margin-bottom: 3%;;
+}
 
 /* Top Content Styling */
 .top-content {
@@ -192,4 +225,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: all .3s;
+}
+
+footer nav a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
 }
