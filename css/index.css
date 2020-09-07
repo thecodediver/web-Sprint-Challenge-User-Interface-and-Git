@@ -306,3 +306,27 @@ ABOUT PAGE SPECIFIC STYLING STARTS HERE
 .careers-section h2 {
     font-weight: bolder;
 }
+
+/* =================
+TABLET SIZE (800px) STYLING HERE
+=================== */
+
+@media(max-width: 800px) {
+
+
+
+
+
+}
+
+/* =================
+PHONE SIZE (500px) STYLING HERE
+=================== */
+
+@media(max-width: 500px) {
+
+
+
+
+    
+}
