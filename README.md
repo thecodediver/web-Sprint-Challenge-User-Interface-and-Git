@@ -50,6 +50,7 @@ The 4 areas of the box model are:
     4. The Margin
     They go in that order from inside out. The inner most thing is the content then comes the padding followed by the border then the margin goes outside the border.
 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 The align-items property works on the cross-axis. 
