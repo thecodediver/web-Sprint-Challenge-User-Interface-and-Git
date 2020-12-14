@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/* CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,11 +67,59 @@ p {
     line-height: 1.4;
 }
 
+/* Main Page Container Styling */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* Header Content Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3%;
+    align-items: baseline;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+nav .nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+nav .nav-links a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero {
+    height: 25vh;
+    background-image: url('../img/jumbo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: .5%;
+    margin-bottom: 3%;
+}
+
+.hero-about {
+    height: 25vh;
+    background-image: url('../img/jumbo-about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: .5%;
+    margin-bottom: 3%;
+}
+
+/* Top Content Styling */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +134,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle Content Styling */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +162,47 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+/* Bottom Content Styling */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +217,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer Content Styling */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +235,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: all .3s;
+}
+
+footer nav a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
+}
+
+/* ================
+ABOUT PAGE SPECIFIC STYLING STARTS HERE
+================= */
+
+/* About Section Stlying */
+.about-section {
+    padding: .5% 2% 2.5% 2%;
+    border-bottom: 2px dotted black;
+}
+
+.about-section h1 {
+    font-weight: bolder;
+}
+
+/* Info Section Styling */
+.info-section {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-section .info-content {
+    width: 48.5%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.info-section .info-content img, .info-section .info-content p {
+    margin-bottom: 5%;
+}
+
+.info-section .info-content h2 {
+    font-weight: bolder;
+}
+
+.info-section .info-content .info-button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.5% 4.5%;
+    margin-bottom: 2%;
+    transition: all .3s;
+}
+
+.info-section .info-content .info-button:hover {
+    color: white;
+    background-color: rgb(39, 38, 38);
+    border: 2px solid white;
+}
+
+/* Career Section Styling */
+.careers-section {
+    padding: 2%;
+    margin-bottom: 2.5%;
+}
+
+.careers-section h2 {
+    font-weight: bolder;
 }

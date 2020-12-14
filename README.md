@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML that conveys meaning to the content that it holds. Elements such as header footer section nav ect. group things based on the content they hold and its connection. This assists screen readers with how to read the content to users that may have a handicap such as blindness. This helps make your website more accessable to everyone. Regular div's can still be utilized for manipulating design and layout of items but semantic HTML should be used anywhere that it can be.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block items take up the full width of their parent container unless specified otherwise but even if the width is less than 100% no other item will share the line with it. 
+Inline elements only take up the space that their content demands, these items can be placed on the same line as other inline elements. The downside of inline elements is that their width cannot be adjusted, to fix this issue the display property inline-block can be used which allows you to specify a width as well.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are:
+    1. The Content
+    2. The Padding
+    3. The Border
+    4. The Margin
+    They go in that order from inside out. The inner most thing is the content then comes the padding followed by the border then the margin goes outside the border.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items property works on the cross-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a version control software that allows teams to work on a code base simultaneously, it tracks changes to code through commits and allows for the ability to revert back to past instances of the code as well as the ability to merge changes in code from multiple sources to a main source. When Git is used with a program like GitHub it allows for a remote master that can be utilized by developers from all over the world to push and pull code from so that they are staying up to date with everyone else on their team.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
